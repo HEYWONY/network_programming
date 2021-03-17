@@ -6,7 +6,7 @@ money = 50
 
 print("게임을 시작합니다. 0달러 이하로 내려가거나 100달러를 넘기면 게임이 끝납니다.")
 
-while True:
+while True: 
     if money <= 0:
         print("0달러 아래로 내려갔습니다.")
         break
@@ -26,4 +26,4 @@ while True:
             money -= 10
             print("현재 금액: ", money)
 
-print("게임이 끝났습니다. ")
+print("게임이 끝났습니다.")
