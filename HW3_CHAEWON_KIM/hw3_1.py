@@ -22,13 +22,13 @@ for key, value in days.items():
         print(key)
 print()
 
-# 월의 일수를 기준으로 오름차순으로 (key-value) 쌍을 출력하라.
+#월의 일수를 기준으로 오름차순으로 (key-value) 쌍을 출력하라.
 print('월의 일수를 기준으로 오름차순 정렬하기')
 for key, value in sorted(days.items(), key=lambda x: x[1]):
     print(key, value)
 print()
 
-# 사용자가 월을 3자리만 입력하면 월의 일수를 출력하라.(Jan, Feb 등)
+#사용자가 월을 3자리만 입력하면 월의 일수를 출력하라.(Jan, Feb 등)
 month = input("월을 3자리만 입력하세요: ")
 for key, value in days.items():
     if month in key:
