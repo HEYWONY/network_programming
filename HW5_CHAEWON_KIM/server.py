@@ -26,7 +26,7 @@ while True:
             elif n_list[1] == '/':
                 result = round(int(n_list[0]) / int(n_list[2]), 1)
         except:
-            client.send(b'다시 시도하세요.') 
+            client.send(b'Try again') 
         else:           
             bytes_str_result = str(result).encode()  
             client.send(bytes_str_result) 
